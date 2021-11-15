@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parang Cafe | Store</title>
+  <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../assets/index.css">
+  <script src="https://kit.fontawesome.com/7fd51b7743.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=bdbff90b21f1abc60d80086d6c452f7b"></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div id="brand">
+        <div id="logo"></div>
+        <div id="word-mark">환영해요!</div>
+        <!-- <div id="users">
+                <i id="login" class="fas fa-sign-in-alt"></i>
+                <i id="signup" class="fas fa-user-plus"></i>
+                <i id="profile" class="fas fa-user-edit"></i>
+                <i id="logout" class="fas fa-sign-out-alt"></i>
+              </div> -->
+      </div>
+      <div id="menu">
+        <div id="menu-toggle">
+          <div id="menu-icon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </div>
+        <ul>
+          <!-- 메뉴 소개 -->
+          <li>
+            <div>
+              <a href="./menu.html">Menu</a>
+            </div>
+          </li>
+          <!-- 매장 찾기 -->
+          <!-- <li>
+            <div>
+              <a href="./store.html">Store</a>
+            </div>
+          </li> -->
+          <!-- 관리 페이지 -->
+          <!-- <li>
+            <div>
+              <a href="./admin.html">Admin</a>
+            </div>
+          </li> -->
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main data-navgiation="store">
+    <section>
+      <div id="map"></div>
+      <div class="wrap">
+        <div class="search">
+          <input type="text" class="searchTerm" placeholder="찾을 지역을 입력해주세요.">
+          <button type="submit" class="searchButton">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h3>타이틀</h3>
+      </div>
+      <div>
+        <p>개요</p>
+      </div>
+      <div>
+        <ul>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <script type="module" src="../index.js"></script>
+  <script src="../src/api/index.js"></script>
+</body>
+
+</html>
